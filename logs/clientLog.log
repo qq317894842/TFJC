@@ -1,0 +1,83 @@
+2020-09-08 11:03:23.698 INFO [main]com.caacitc.esb.logging.LoggerProxy.info:61 -[initializeSdkClient] EsbClientInitialize.java:85 - initialize() SdkClientInitialize 
+2020-09-08 11:03:23.704 INFO [main]com.caacitc.esb.logging.LoggerProxy.info:61 -[init] DefaultEsbClientService.java:33 - init() DefaultEsbClientService , initializing sdk client with service type FLIGHT
+2020-09-08 11:03:23.705 INFO [main]com.caacitc.esb.utils.SdkClientConfigUtil.loadClientProperties:44 -SdkClientConfigUtil loading client properties ...
+2020-09-08 11:03:23.706 INFO [main]com.caacitc.esb.utils.SdkClientConfigUtil.loadClientProperties:56 -SdkClientConfigUtil loaded client properties ESB_SDK_CLIENT_ENDPOINT : null 
+2020-09-08 11:03:23.709 INFO [main]com.caacitc.esb.utils.SdkClientConfigUtil.loadClientProperties:57 -SdkClientConfigUtil loaded client properties ESB_SDK_CLIENT_PASSWORD : null 
+2020-09-08 11:03:23.710 INFO [main]com.caacitc.esb.utils.SdkClientConfigUtil.loadClientProperties:58 -SdkClientConfigUtil loaded client properties ESB_SDK_SERVER_IP : null 
+2020-09-08 11:03:23.710 INFO [main]com.caacitc.esb.utils.SdkClientConfigUtil.loadClientProperties:59 -SdkClientConfigUtil loaded client properties ESB_SDK_SERVER_PORT  : null 
+2020-09-08 11:03:23.710 INFO [main]com.caacitc.esb.utils.SdkClientConfigUtil.loadClientProperties:60 -SdkClientConfigUtil loaded client properties ESB_SDK_CLIENT_VERSION  : null 
+2020-09-08 11:12:02.776 INFO [main]com.caacitc.esb.logging.LoggerProxy.info:61 -[initializeSdkClient] EsbClientInitialize.java:85 - initialize() SdkClientInitialize 
+2020-09-08 11:12:02.782 INFO [main]com.caacitc.esb.logging.LoggerProxy.info:61 -[init] DefaultEsbClientService.java:33 - init() DefaultEsbClientService , initializing sdk client with service type FLIGHT
+2020-09-08 11:12:02.783 INFO [main]com.caacitc.esb.utils.SdkClientConfigUtil.loadClientProperties:44 -SdkClientConfigUtil loading client properties ...
+2020-09-08 11:12:02.784 INFO [main]com.caacitc.esb.utils.SdkClientConfigUtil.loadClientProperties:56 -SdkClientConfigUtil loaded client properties ESB_SDK_CLIENT_ENDPOINT : DTS 
+2020-09-08 11:12:02.784 INFO [main]com.caacitc.esb.utils.SdkClientConfigUtil.loadClientProperties:57 -SdkClientConfigUtil loaded client properties ESB_SDK_CLIENT_PASSWORD : DTS 
+2020-09-08 11:12:02.785 INFO [main]com.caacitc.esb.utils.SdkClientConfigUtil.loadClientProperties:58 -SdkClientConfigUtil loaded client properties ESB_SDK_SERVER_IP : 10.32.20.5 
+2020-09-08 11:12:02.785 INFO [main]com.caacitc.esb.utils.SdkClientConfigUtil.loadClientProperties:59 -SdkClientConfigUtil loaded client properties ESB_SDK_SERVER_PORT  : 7484 
+2020-09-08 11:12:02.785 INFO [main]com.caacitc.esb.utils.SdkClientConfigUtil.loadClientProperties:60 -SdkClientConfigUtil loaded client properties ESB_SDK_CLIENT_VERSION  : 1.0 
+2020-09-08 11:12:03.227 INFO [main]com.caacitc.esb.utils.NetworkUtil.getLocalIp:89 -getLocalIP() NetworkUtil ,get ip address successfully! ip address : 172.20.10.2
+2020-09-08 11:12:03.573 INFO [main]com.caacitc.esb.utils.NetworkUtil.getMacId:166 -getCurrentMachineMacAddress() NetworkUtil , get mac address successfully! mac address : 5C-80-B6-42-52-F7
+2020-09-08 11:12:03.574 INFO [main]com.caacitc.esb.utils.SdkClientConfigUtil.loadClientInetAddress:81 -SdkClientConfigUtil loaded client properties ESB_SDK_CLIENT_IP : 172.20.10.2 
+2020-09-08 11:12:03.574 INFO [main]com.caacitc.esb.utils.SdkClientConfigUtil.loadClientInetAddress:82 -SdkClientConfigUtil loaded client properties ESB_SDK_CLIENT_MAC : 5C-80-B6-42-52-F7 
+2020-09-08 11:12:03.835 INFO [main]com.caacitc.esb.logging.LoggerProxy.info:61 -[init] DefaultEsbClientService.java:46 - init () DefaultEsbClientService ,sdk client init request info {"endpoint":"DTS","password":"DTS","serviceType":"FLIGHT"}
+2020-09-08 11:12:03.835 INFO [main]com.caacitc.esb.logging.LoggerProxy.info:61 -[doPost] HttpUtil.java:38 - doPost() HttpUtil
+2020-09-08 11:12:03.839 INFO [main]com.caacitc.esb.logging.LoggerProxy.info:61 -[doPost] HttpUtil.java:47 - HttpUtil - url http://10.32.20.5:7484/v1/mqconnector/sysmqconnector, url method /v1/mqconnector/sysmqconnector, url params {"endpoint":"DTS","password":"DTS","serviceType":"FLIGHT"}
+2020-09-08 11:12:13.850 ERROR[main]com.caacitc.esb.logging.LoggerProxy.error:39 -[doPost] com.caacitc.esb.utils.HttpUtil.java:88 - HttpUtil - %%%% Sys mq connector Service %%%% unreached 
+java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1334)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1309)
+	at com.caacitc.esb.utils.HttpUtil.doPost(HttpUtil.java:66)
+	at com.caacitc.esb.service.impl.DefaultEsbClientService.init(DefaultEsbClientService.java:49)
+	at com.caacitc.esb.service.EsbClientInitialize.initializeSdkClient(EsbClientInitialize.java:92)
+	at com.caacitc.esb.client.EsbClient.consumer(EsbClient.java:336)
+	at com.caacitc.esb.client.EsbClient.consumer(EsbClient.java:311)
+	at test.main(test.java:5)
+2020-09-08 11:12:13.851 ERROR[main]com.caacitc.esb.logging.LoggerProxy.error:39 -[init] com.caacitc.esb.service.impl.DefaultEsbClientService.java:52 - init () DefaultEsbClientService, failed to call Sys mq connector api, error java.net.SocketTimeoutException: connect timed out
+2020-09-08 11:12:13.852 INFO [main]esb-consumer.info:61 -[consumer] EsbClient.java:338 - DTS - starting consume listener...
+2020-09-08 11:12:13.853 ERROR[main]esb-producer.error:39 -[consumer] com.caacitc.esb.client.EsbClient.java:342 - initialize DTS service type FLIGHT sdk client failed , please recreate subscribe or contact sdk provider ... 
+2020-09-08 11:12:46.799 INFO [main]com.caacitc.esb.logging.LoggerProxy.info:61 -[initializeSdkClient] EsbClientInitialize.java:85 - initialize() SdkClientInitialize 
+2020-09-08 11:12:46.803 INFO [main]com.caacitc.esb.logging.LoggerProxy.info:61 -[init] DefaultEsbClientService.java:33 - init() DefaultEsbClientService , initializing sdk client with service type FLIGHT
+2020-09-08 11:12:46.804 INFO [main]com.caacitc.esb.utils.SdkClientConfigUtil.loadClientProperties:44 -SdkClientConfigUtil loading client properties ...
+2020-09-08 11:12:46.805 INFO [main]com.caacitc.esb.utils.SdkClientConfigUtil.loadClientProperties:56 -SdkClientConfigUtil loaded client properties ESB_SDK_CLIENT_ENDPOINT : DTS 
+2020-09-08 11:12:46.805 INFO [main]com.caacitc.esb.utils.SdkClientConfigUtil.loadClientProperties:57 -SdkClientConfigUtil loaded client properties ESB_SDK_CLIENT_PASSWORD : DTS 
+2020-09-08 11:12:46.805 INFO [main]com.caacitc.esb.utils.SdkClientConfigUtil.loadClientProperties:58 -SdkClientConfigUtil loaded client properties ESB_SDK_SERVER_IP : 10.32.20.5 
+2020-09-08 11:12:46.806 INFO [main]com.caacitc.esb.utils.SdkClientConfigUtil.loadClientProperties:59 -SdkClientConfigUtil loaded client properties ESB_SDK_SERVER_PORT  : 7484 
+2020-09-08 11:12:46.806 INFO [main]com.caacitc.esb.utils.SdkClientConfigUtil.loadClientProperties:60 -SdkClientConfigUtil loaded client properties ESB_SDK_CLIENT_VERSION  : 1.0 
+2020-09-08 11:12:47.749 INFO [main]com.caacitc.esb.utils.NetworkUtil.getLocalIp:89 -getLocalIP() NetworkUtil ,get ip address successfully! ip address : fe80:0:0:0:c4d8:1dd1:b575:dd41%eth6
+2020-09-08 11:13:40.934 INFO [main]com.caacitc.esb.logging.LoggerProxy.info:61 -[initializeSdkClient] EsbClientInitialize.java:85 - initialize() SdkClientInitialize 
+2020-09-08 11:13:40.939 INFO [main]com.caacitc.esb.logging.LoggerProxy.info:61 -[init] DefaultEsbClientService.java:33 - init() DefaultEsbClientService , initializing sdk client with service type FLIGHT
+2020-09-08 11:13:40.940 INFO [main]com.caacitc.esb.utils.SdkClientConfigUtil.loadClientProperties:44 -SdkClientConfigUtil loading client properties ...
+2020-09-08 11:13:40.940 INFO [main]com.caacitc.esb.utils.SdkClientConfigUtil.loadClientProperties:56 -SdkClientConfigUtil loaded client properties ESB_SDK_CLIENT_ENDPOINT : DTS 
+2020-09-08 11:13:40.941 INFO [main]com.caacitc.esb.utils.SdkClientConfigUtil.loadClientProperties:57 -SdkClientConfigUtil loaded client properties ESB_SDK_CLIENT_PASSWORD : DTS 
+2020-09-08 11:13:40.941 INFO [main]com.caacitc.esb.utils.SdkClientConfigUtil.loadClientProperties:58 -SdkClientConfigUtil loaded client properties ESB_SDK_SERVER_IP : 10.32.20.5 
+2020-09-08 11:13:40.941 INFO [main]com.caacitc.esb.utils.SdkClientConfigUtil.loadClientProperties:59 -SdkClientConfigUtil loaded client properties ESB_SDK_SERVER_PORT  : 7484 
+2020-09-08 11:13:40.941 INFO [main]com.caacitc.esb.utils.SdkClientConfigUtil.loadClientProperties:60 -SdkClientConfigUtil loaded client properties ESB_SDK_CLIENT_VERSION  : 1.0 
+2020-09-08 11:13:41.602 INFO [main]com.caacitc.esb.utils.NetworkUtil.getLocalIp:89 -getLocalIP() NetworkUtil ,get ip address successfully! ip address : 10.33.33.119
+2020-09-08 11:13:42.061 INFO [main]com.caacitc.esb.utils.NetworkUtil.getMacId:166 -getCurrentMachineMacAddress() NetworkUtil , get mac address successfully! mac address : 00-E0-4C-69-48-BB
+2020-09-08 11:13:42.062 INFO [main]com.caacitc.esb.utils.SdkClientConfigUtil.loadClientInetAddress:81 -SdkClientConfigUtil loaded client properties ESB_SDK_CLIENT_IP : 10.33.33.119 
+2020-09-08 11:13:42.062 INFO [main]com.caacitc.esb.utils.SdkClientConfigUtil.loadClientInetAddress:82 -SdkClientConfigUtil loaded client properties ESB_SDK_CLIENT_MAC : 00-E0-4C-69-48-BB 
+2020-09-08 11:13:42.320 INFO [main]com.caacitc.esb.logging.LoggerProxy.info:61 -[init] DefaultEsbClientService.java:46 - init () DefaultEsbClientService ,sdk client init request info {"endpoint":"DTS","password":"DTS","serviceType":"FLIGHT"}
+2020-09-08 11:13:42.321 INFO [main]com.caacitc.esb.logging.LoggerProxy.info:61 -[doPost] HttpUtil.java:38 - doPost() HttpUtil
+2020-09-08 11:13:42.324 INFO [main]com.caacitc.esb.logging.LoggerProxy.info:61 -[doPost] HttpUtil.java:47 - HttpUtil - url http://10.32.20.5:7484/v1/mqconnector/sysmqconnector, url method /v1/mqconnector/sysmqconnector, url params {"endpoint":"DTS","password":"DTS","serviceType":"FLIGHT"}
+2020-09-08 11:13:42.369 INFO [main]com.caacitc.esb.logging.LoggerProxy.info:61 -[doPost] HttpUtil.java:83 - HttpUtil	- %%%% Sys mq connector Service %%%% is normal , response {"sdkResponseDto":{},"mqInfoDto":{"rbMqExchangeType":"topic"}} 
+2020-09-08 11:13:42.369 INFO [main]com.caacitc.esb.logging.LoggerProxy.info:61 -[init] DefaultEsbClientService.java:50 - init () DefaultEsbClientService , serviceName %%%% Sys mq connector Service %%%% , response info {"sdkResponseDto":{},"mqInfoDto":{"rbMqExchangeType":"topic"}}
+2020-09-08 11:13:42.400 ERROR[main]com.caacitc.esb.logging.LoggerProxy.error:39 -[init] com.caacitc.esb.service.impl.DefaultEsbClientService.java:71 - init () DefaultEsbClientService , failed to Sys mq connector, service type : FLIGHT ,response {"sdkResponseDto":{},"mqInfoDto":{"rbMqExchangeType":"topic"}}
+2020-09-08 11:13:42.401 INFO [main]esb-consumer.info:61 -[consumer] EsbClient.java:338 - DTS - starting consume listener...
+2020-09-08 11:13:42.402 ERROR[main]esb-producer.error:39 -[consumer] com.caacitc.esb.client.EsbClient.java:342 - initialize DTS service type FLIGHT sdk client failed , please recreate subscribe or contact sdk provider ... 

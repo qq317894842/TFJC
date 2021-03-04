@@ -1,0 +1,5 @@
+esb:
+  sdk:
+    limitValue: 2
+    clearDay: 3
+    serviceTypes: FLIGHT,FLIGHT_REQE,FLIGHT_BASE

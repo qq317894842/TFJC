@@ -1,0 +1,12 @@
+
+T
+squid:S1061"9Replace this use of System.out or System.err by a logger.(–Ãˆ®üÿÿÿÿ
+O
+squid:S106O"9Replace this use of System.out or System.err by a logger.(óÀ”Ç
+T
+squid:S106S"9Replace this use of System.out or System.err by a logger.(ëÁÛÁûÿÿÿÿ
+T
+squid:S106U"9Replace this use of System.out or System.err by a logger.(¬êûÿÿÿÿ
+T
+squid:S106V"9Replace this use of System.out or System.err by a logger.(ûü¾–ùÿÿÿÿ
+qsquid:UselessImportCheck"MRemove this unused import 'com.baomidou.mybatisplus.core.conditions.Wrapper'.(ÛÑĞ£

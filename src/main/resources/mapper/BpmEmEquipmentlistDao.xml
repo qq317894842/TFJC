@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.dao.BpmEmEquipmentlistDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.entity.BpmEmEquipmentlistEntity" id="bpmEmEquipmentlistMap">
+        <result property="equipmentno" column="EquipmentNo"/>
+        <result property="equipmentcode" column="EquipmentCode"/>
+        <result property="equipmentname" column="EquipmentName"/>
+        <result property="equipmentclassifycode" column="EquipmentClassifyCode"/>
+        <result property="equipmentclassifyname" column="equipmentclassifyname"/>
+        <result property="equlocationcode" column="EquLocationCode"/>
+        <result property="equlocationname" column="equlocationname"/>
+        <result property="equlocationseq" column="EquLocationSeq"/>
+        <result property="equmaintainseq" column="equmaintainseq"/>
+        <result property="brandcode" column="BrandCode"/>
+        <result property="brandname" column="brandname"/>
+        <result property="manufacturercode" column="ManufacturerCode"/>
+        <result property="suppliercode" column="SupplierCode"/>
+        <result property="suppliername" column="suppliername"/>
+        <result property="price" column="Price"/>
+        <result property="batch" column="Batch"/>
+        <result property="mfg" column="Mfg"/>
+        <result property="sl" column="SL"/>
+        <result property="expstart" column="ExpStart"/>
+        <result property="exp" column="Exp"/>
+        <result property="usetime" column="UseTime"/>
+        <result property="runtime" column="RunTime"/>
+        <result property="states" column="States"/>
+        <result property="statesname" column="StatesName"/>
+        <result property="opcuaurl" column="OpcUaUrl"/>
+        <result property="isenable" column="IsEnable"/>
+        <result property="descriptions" column="Descriptions"/>
+        <result property="createby" column="CreateBy"/>
+        <result property="createbyname" column="CreateByName"/>
+        <result property="createtime" column="CreateTime"/>
+        <result property="modifyby" column="ModifyBy"/>
+        <result property="modifybyname" column="ModifyByName"/>
+        <result property="modifytime" column="ModifyTime"/>
+        <result property="userExtValue1" column="user_ext_value1"/>
+        <result property="userExtValue2" column="user_ext_value2"/>
+        <result property="userExtValue3" column="user_ext_value3"/>
+        <result property="userExtValue4" column="user_ext_value4"/>
+        <result property="userExtValue5" column="user_ext_value5"/>
+    </resultMap>
+
+    <select id="queryList" resultType="com.entity.BpmEmEquipmentlistEntity">
+        select eel.EquipmentNo,
+        eel.EquipmentCode,
+        eel.EquipmentName,
+        eel.EquLocationCode,
+        eel.EquLocationSeq,
+        eel.Batch,
+        eel.Mfg,
+        eel.SL,
+        eel.ExpStart,
+        eel.Exp,
+        eel.States,
+        eel.RunTime,
+        eei.EquipmentClassifyCode,
+        eei.BrandCode,
+        eei.ManufacturerCode,
+        eei.SupplierCode,
+        eei.Price,
+        eel.IsEnable,
+        eel.Descriptions,
+        eel.CreateBy,
+        eel.CreateByName,
+        eel.CreateTime,
+        eel.ModifyBy,
+        eel.ModifyByName,
+        eel.ModifyTime,
+        eel.OpcUaUrl,
+        eclass.ClassifyName as equipmentclassifyname,
+        elocation.EquLocationName as equlocationname,
+        brand.BrandName as brandname,
+        supplier.FullName as suppliername
+        from BPM_EM_EquipmentList eel
+        left join BPM_EM_EquipmentInfo eei on eel.EquipmentCode = eei.EquipmentCode
+        left join BPM_EM_EquipmentClassify as eclass on eclass.ClassifyCode=eei.EquipmentClassifyCode
+        left join BPM_EM_EquipmentLocation as elocation on elocation.EquLocationCode=eel.EquLocationCode
+        left join WMS_BD_Brand as brand on brand.BrandCode=eei.BrandCode
+        left join BMS_PM_SupplierRecord as supplier on supplier.Code=eei.SupplierCode
+        <where>
+            ${ew.sqlSegment}
+        </where>
+        order by eel.CreateTime desc
+    </select>
+
+    <select id="queryListPage" resultType="com.entity.BpmEmEquipmentlistEntity">
+        select eel.EquipmentNo,
+        eel.EquipmentCode,
+        eel.EquipmentName,
+        eel.EquLocationCode,
+        eel.EquLocationSeq,
+        eel.Batch,
+        eel.Mfg,
+        eel.SL,
+        eel.ExpStart,
+        eel.Exp,
+        eel.States,
+        eei.EquipmentClassifyCode,
+        eei.BrandCode,
+        eei.ManufacturerCode,
+        eei.SupplierCode,
+        eei.Price,
+        eel.IsEnable,
+        eel.Descriptions,
+        eel.CreateBy,
+        eel.CreateByName,
+        eel.CreateTime,
+        eel.ModifyBy,
+        eel.ModifyByName,
+        eel.ModifyTime,
+        eel.RunTime,
+        eel.OpcUaUrl,
+        eclass.ClassifyName as equipmentclassifyname,
+        elocation.EquLocationName as equlocationname,
+        brand.BrandName as brandname,
+        supplier.FullName as suppliername
+        from BPM_EM_EquipmentList eel
+        left join BPM_EM_EquipmentInfo eei on eel.EquipmentCode = eei.EquipmentCode
+        left join BPM_EM_EquipmentClassify as eclass on eclass.ClassifyCode=eei.EquipmentClassifyCode
+        left join BPM_EM_EquipmentLocation as elocation on elocation.EquLocationCode=eel.EquLocationCode
+        left join WMS_BD_Brand as brand on brand.BrandCode=eei.BrandCode
+        left join BMS_PM_SupplierRecord as supplier on supplier.Code=eei.SupplierCode
+        <where>
+            ${ew.sqlSegment}
+        </where>
+        order by eel.CreateTime desc
+    </select>
+    <select id="queryListPage2" resultType="com.entity.BpmEmEquipmentlistEntity">
+        select eel.EquipmentNo,
+        eel.EquipmentCode,
+        eel.EquipmentName,
+        eel.EquLocationCode,
+        eel.EquLocationSeq,
+        eel.Batch,
+        eel.Mfg,
+        eel.SL,
+        eel.ExpStart,
+        eel.Exp,
+        eel.States,
+        eei.EquipmentClassifyCode,
+        eei.BrandCode,
+        eei.ManufacturerCode,
+        eei.SupplierCode,
+        eei.Price,
+        eel.IsEnable,
+        eel.Descriptions,
+        eel.CreateBy,
+        eel.CreateByName,
+        eel.CreateTime,
+        eel.ModifyBy,
+        eel.ModifyByName,
+        eel.ModifyTime,
+        eclass.ClassifyName as equipmentclassifyname,
+        elocation.EquLocationName as equlocationname,
+        brand.BrandName as brandname,
+        supplier.FullName as suppliername
+        from BPM_EM_EquipmentList eel
+        left join BPM_EM_EquipmentInfo eei on eel.EquipmentCode = eei.EquipmentCode
+        left join BPM_EM_EquipmentClassify as eclass on eclass.ClassifyCode=eei.EquipmentClassifyCode
+        left join BPM_EM_EquipmentLocation as elocation on elocation.EquLocationCode=eel.EquLocationCode
+        left join WMS_BD_Brand as brand on brand.BrandCode=eei.BrandCode
+        left join BMS_PM_SupplierRecord as supplier on supplier.Code=eei.SupplierCode
+        <where>
+            ${ew.sqlSegment}
+        </where>
+        order by eel.CreateTime desc
+    </select>
+    <select id="queryPageByArea" resultType="com.entity.BpmEmEquipmentlistEntity">
+        select eel.*
+        from BPM_EM_EquipmentList eel
+        left join BPM_EM_EquipmentArea ea on eel.EquipmentNo=ea.EquipmentNo
+        <where>
+            ea.AreaCode is null
+            <if test="ew.sqlSegment != null">
+                and
+                ${ew.sqlSegment}
+            </if>
+        </where>
+        order by eel.CreateTime desc
+    </select>
+
+
+</mapper>

@@ -1,0 +1,1471 @@
+2021-02-26 09:08:21.945 [Thread-0] ERROR esb-producer Line:39  -[consumer] com.caacitc.esb.client.EsbClient.java:342 - initialize BHS service type EQUIPMENT_REQE sdk client failed , please recreate subscribe or contact sdk provider ... 
+2021-02-26 09:39:43.593 [ConsumeMessageThread_1] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:39:43.595 [ConsumeMessageThread_1] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:39:44.604 [ConsumeMessageThread_2] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:39:44.605 [ConsumeMessageThread_2] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:39:45.609 [ConsumeMessageThread_3] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:39:45.610 [ConsumeMessageThread_3] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:39:46.614 [ConsumeMessageThread_4] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:39:46.614 [ConsumeMessageThread_4] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:39:47.620 [ConsumeMessageThread_5] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:39:47.620 [ConsumeMessageThread_5] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:39:48.624 [ConsumeMessageThread_6] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:39:48.625 [ConsumeMessageThread_6] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:39:49.629 [ConsumeMessageThread_7] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:39:49.630 [ConsumeMessageThread_7] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:39:50.636 [ConsumeMessageThread_8] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:39:50.636 [ConsumeMessageThread_8] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:39:51.641 [ConsumeMessageThread_9] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:39:51.642 [ConsumeMessageThread_9] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:39:52.647 [ConsumeMessageThread_10] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:39:52.647 [ConsumeMessageThread_10] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:39:53.651 [ConsumeMessageThread_11] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:39:53.652 [ConsumeMessageThread_11] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:39:54.657 [ConsumeMessageThread_12] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:39:54.657 [ConsumeMessageThread_12] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:39:55.662 [ConsumeMessageThread_13] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:39:55.662 [ConsumeMessageThread_13] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:39:56.667 [ConsumeMessageThread_14] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:39:56.667 [ConsumeMessageThread_14] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:39:57.671 [ConsumeMessageThread_15] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:39:57.671 [ConsumeMessageThread_15] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:39:58.675 [ConsumeMessageThread_16] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:39:58.675 [ConsumeMessageThread_16] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:39:59.681 [ConsumeMessageThread_17] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:39:59.681 [ConsumeMessageThread_17] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:40:00.683 [ConsumeMessageThread_18] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:40:00.685 [ConsumeMessageThread_18] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:40:01.688 [ConsumeMessageThread_19] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:40:01.688 [ConsumeMessageThread_19] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:40:02.692 [ConsumeMessageThread_20] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:40:02.693 [ConsumeMessageThread_20] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:40:03.696 [ConsumeMessageThread_1] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:40:03.697 [ConsumeMessageThread_1] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:40:04.701 [ConsumeMessageThread_2] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:40:04.701 [ConsumeMessageThread_2] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:40:05.705 [ConsumeMessageThread_3] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:40:05.705 [ConsumeMessageThread_3] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:40:06.709 [ConsumeMessageThread_4] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:40:06.709 [ConsumeMessageThread_4] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:40:07.714 [ConsumeMessageThread_5] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:40:07.715 [ConsumeMessageThread_5] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:40:08.718 [ConsumeMessageThread_6] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:40:08.718 [ConsumeMessageThread_6] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:40:09.721 [ConsumeMessageThread_7] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:40:09.722 [ConsumeMessageThread_7] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:40:10.725 [ConsumeMessageThread_8] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:40:10.726 [ConsumeMessageThread_8] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:40:11.730 [ConsumeMessageThread_9] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:40:11.730 [ConsumeMessageThread_9] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:40:12.736 [ConsumeMessageThread_10] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:40:12.736 [ConsumeMessageThread_10] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:40:13.740 [ConsumeMessageThread_11] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:40:13.740 [ConsumeMessageThread_11] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:40:14.743 [ConsumeMessageThread_12] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:40:14.744 [ConsumeMessageThread_12] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:40:15.746 [ConsumeMessageThread_13] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:40:15.747 [ConsumeMessageThread_13] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:40:16.751 [ConsumeMessageThread_14] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:40:16.751 [ConsumeMessageThread_14] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:40:17.754 [ConsumeMessageThread_15] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:40:17.754 [ConsumeMessageThread_15] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:40:18.758 [ConsumeMessageThread_16] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:40:18.758 [ConsumeMessageThread_16] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:40:19.762 [ConsumeMessageThread_17] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:40:19.762 [ConsumeMessageThread_17] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:45:13.007 [ConsumeMessageThread_1] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:45:13.009 [ConsumeMessageThread_1] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:45:14.017 [ConsumeMessageThread_2] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:45:14.017 [ConsumeMessageThread_2] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:45:15.022 [ConsumeMessageThread_3] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:45:15.022 [ConsumeMessageThread_3] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:45:16.027 [ConsumeMessageThread_4] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:45:16.028 [ConsumeMessageThread_4] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:45:17.032 [ConsumeMessageThread_5] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:45:17.033 [ConsumeMessageThread_5] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:45:18.039 [ConsumeMessageThread_6] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:45:18.039 [ConsumeMessageThread_6] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:45:19.044 [ConsumeMessageThread_7] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:45:19.044 [ConsumeMessageThread_7] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:45:20.050 [ConsumeMessageThread_8] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:45:20.050 [ConsumeMessageThread_8] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:45:21.054 [ConsumeMessageThread_9] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:45:21.054 [ConsumeMessageThread_9] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:45:22.058 [ConsumeMessageThread_10] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:45:22.059 [ConsumeMessageThread_10] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:45:23.062 [ConsumeMessageThread_11] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:45:23.063 [ConsumeMessageThread_11] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:45:24.067 [ConsumeMessageThread_12] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:45:24.067 [ConsumeMessageThread_12] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:45:25.072 [ConsumeMessageThread_13] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:45:25.073 [ConsumeMessageThread_13] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:45:26.077 [ConsumeMessageThread_14] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:45:26.077 [ConsumeMessageThread_14] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:45:27.083 [ConsumeMessageThread_15] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:45:27.083 [ConsumeMessageThread_15] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:45:28.089 [ConsumeMessageThread_16] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:45:28.090 [ConsumeMessageThread_16] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:45:29.096 [ConsumeMessageThread_17] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:45:29.096 [ConsumeMessageThread_17] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:45:30.101 [ConsumeMessageThread_18] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:45:30.101 [ConsumeMessageThread_18] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:45:31.107 [ConsumeMessageThread_19] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:45:31.107 [ConsumeMessageThread_19] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:45:32.113 [ConsumeMessageThread_20] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:45:32.113 [ConsumeMessageThread_20] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:45:33.117 [ConsumeMessageThread_1] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:45:33.117 [ConsumeMessageThread_1] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:45:34.122 [ConsumeMessageThread_2] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:45:34.122 [ConsumeMessageThread_2] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:45:35.126 [ConsumeMessageThread_3] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:45:35.126 [ConsumeMessageThread_3] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:45:36.132 [ConsumeMessageThread_4] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:45:36.132 [ConsumeMessageThread_4] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:45:37.134 [ConsumeMessageThread_5] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:45:37.135 [ConsumeMessageThread_5] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:45:38.139 [ConsumeMessageThread_6] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:45:38.139 [ConsumeMessageThread_6] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:45:39.143 [ConsumeMessageThread_7] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:45:39.143 [ConsumeMessageThread_7] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:45:40.148 [ConsumeMessageThread_8] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:45:40.149 [ConsumeMessageThread_8] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:45:41.153 [ConsumeMessageThread_9] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:45:41.154 [ConsumeMessageThread_9] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:45:42.159 [ConsumeMessageThread_10] ERROR com.BackEquipmentServiceListener Line:89  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:45:42.159 [ConsumeMessageThread_10] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:49:58.019 [ConsumeMessageThread_1] ERROR com.BackEquipmentServiceListener Line:92  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:49:58.021 [ConsumeMessageThread_1] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:49:59.028 [ConsumeMessageThread_2] ERROR com.BackEquipmentServiceListener Line:92  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:49:59.029 [ConsumeMessageThread_2] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:50:00.031 [ConsumeMessageThread_3] ERROR com.BackEquipmentServiceListener Line:92  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:50:00.032 [ConsumeMessageThread_3] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:50:01.038 [ConsumeMessageThread_4] ERROR com.BackEquipmentServiceListener Line:92  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:50:01.039 [ConsumeMessageThread_4] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:50:02.045 [ConsumeMessageThread_5] ERROR com.BackEquipmentServiceListener Line:92  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:50:02.045 [ConsumeMessageThread_5] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:50:58.164 [ConsumeMessageThread_1] ERROR com.BackEquipmentServiceListener Line:93  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:50:58.167 [ConsumeMessageThread_1] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:50:59.177 [ConsumeMessageThread_2] ERROR com.BackEquipmentServiceListener Line:93  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:50:59.177 [ConsumeMessageThread_2] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:51:00.181 [ConsumeMessageThread_3] ERROR com.BackEquipmentServiceListener Line:93  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:51:00.181 [ConsumeMessageThread_3] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:51:01.187 [ConsumeMessageThread_4] ERROR com.BackEquipmentServiceListener Line:93  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:51:01.187 [ConsumeMessageThread_4] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 09:51:02.192 [ConsumeMessageThread_5] ERROR com.BackEquipmentServiceListener Line:93  -EQUIPMENT_REQE error: java.lang.NullPointerException
+2021-02-26 09:51:02.193 [ConsumeMessageThread_5] ERROR esb-consumer Line:39  -[consume] com.caacitc.esb.listener.XssMessageOrderListener.java:51 -  Consumer return SUSPEND,  will retry consume later. message : <?xml version="1.0" encoding="UTF-8"?>
+<MSG>
+    <META>
+        <SNDR>DCAS</SNDR>
+        <RCVR/>
+        <SEQN>1</SEQN>
+        <DDTM>20210225094845773</DDTM>
+        <TYPE>REQE_BHS</TYPE>
+        <STYP>RQBR</STYP>
+		<MGID>727a9aec9711491797eec802164d5272</MGID>
+		<RMID/>
+		<SORC>BHS</SORC>
+		<APOT>ZUTF</APOT>
+    </META>
+    <RQEQ>
+		<EQUIPMENTNUMBER></EQUIPMENTNUMBER>
+ 	</RQEQ>
+</MSG> ,messageBySql: BHS_EQUIPMENT_REQE
+2021-02-26 11:28:29.627 [Thread-0] ERROR esb-producer Line:39  -[consumer] com.caacitc.esb.client.EsbClient.java:342 - initialize BHS service type EQUIPMENT_REQE sdk client failed , please recreate subscribe or contact sdk provider ... 
+2021-02-26 11:28:41.335 [Thread-0] ERROR esb-producer Line:39  -[producer] com.caacitc.esb.client.EsbClient.java:66 - init {} call sdk server failed , please recreate publish or contact sdk provider ... 
+2021-02-26 11:30:05.546 [Thread-0] ERROR esb-producer Line:39  -[consumer] com.caacitc.esb.client.EsbClient.java:342 - initialize BHS service type EQUIPMENT_REQE sdk client failed , please recreate subscribe or contact sdk provider ... 
+2021-02-26 11:30:17.347 [Thread-0] ERROR esb-producer Line:39  -[producer] com.caacitc.esb.client.EsbClient.java:66 - init {} call sdk server failed , please recreate publish or contact sdk provider ... 
+2021-02-26 11:32:07.049 [Thread-0] ERROR esb-producer Line:39  -[producer] com.caacitc.esb.client.EsbClient.java:66 - init {} call sdk server failed , please recreate publish or contact sdk provider ... 
+2021-02-26 11:35:00.296 [Thread-0] ERROR esb-producer Line:39  -[consumer] com.caacitc.esb.client.EsbClient.java:342 - initialize BHS service type EQUIPMENT_REQE sdk client failed , please recreate subscribe or contact sdk provider ... 
+2021-02-26 11:35:11.817 [Thread-0] ERROR esb-producer Line:39  -[producer] com.caacitc.esb.client.EsbClient.java:66 - init {} call sdk server failed , please recreate publish or contact sdk provider ... 
