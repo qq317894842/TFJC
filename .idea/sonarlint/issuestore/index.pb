@@ -20,7 +20,3 @@ R
 "src/main/resources/application.yml,a\6\a6d8b8556fee0e03112ce2bf34b8cb27a7dc9e58
 [
 +src/main/java/com/ApiServerApplication.java,f\3\f35727073b02d9f85855c0178ab2ce49528c4666
-`
-0src/main/java/com/dao/BpmEmEquipmentlistDao.java,7\7\77190d2745da3cb369770a9b9b58466f69bd0976
-m
-=src/main/java/com/controller/EmEquipmentStatusController.java,c\6\c6fe8578b12d1fd4e104dcc2b6588487a55aef4a

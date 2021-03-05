@@ -1,0 +1,21 @@
+
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¶Ñãúûÿÿÿÿ
+asquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(™‹°
+asquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.( £°^
+bsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ùð¸
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÞÉÃÝøÿÿÿÿ
+gsquid:CommentedOutCodeLine!"<This block of commented-out lines of code should be removed.(ûÏœæøÿÿÿÿ
+gsquid:CommentedOutCodeLine'"<This block of commented-out lines of code should be removed.(íÂ¨Ãüÿÿÿÿ
+gsquid:CommentedOutCodeLine*"<This block of commented-out lines of code should be removed.(¤èŒÿÿÿÿÿ
+gsquid:CommentedOutCodeLine,"<This block of commented-out lines of code should be removed.(Û¦Áðûÿÿÿÿ
+gsquid:CommentedOutCodeLineG"<This block of commented-out lines of code should be removed.(ü úýÿÿÿÿ
+N
+squid:S106H"9Replace this use of System.out or System.err by a logger.(–Ó&
+T
+squid:S106L"9Replace this use of System.out or System.err by a logger.(ëÁÛÁûÿÿÿÿ
+T
+squid:S106N"9Replace this use of System.out or System.err by a logger.(¬êûÿÿÿÿ
+T
+squid:S106O"9Replace this use of System.out or System.err by a logger.(ûü¾–ùÿÿÿÿ
+Psquid:UselessImportCheck"-Remove this unused import 'Util.WriteInFile'.(ïÆ†p
+?squid:S1148R"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ

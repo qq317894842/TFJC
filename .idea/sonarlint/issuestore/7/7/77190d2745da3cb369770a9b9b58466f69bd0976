@@ -1,5 +1,5 @@
 
 isquid:S00117""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûÝ…î
+nsquid:UselessImportCheck	"ERemove this unused import 'org.springframework.stereotype.Component'.(Þ÷Ñ¸ÿÿÿÿÿ
 nsquid:S00117'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Éšçôúÿÿÿÿ
 isquid:S001174"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²˜ê‹
-nsquid:UselessImportCheck	"ERemove this unused import 'org.springframework.stereotype.Component'.(Þ÷Ñ¸ÿÿÿÿÿ
