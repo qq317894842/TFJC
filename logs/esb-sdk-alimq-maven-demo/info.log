@@ -1,15 +1,50 @@
-2021-03-05 17:56:16.669 [main] INFO  com.ApiServerApplication Line:55  -Starting ApiServerApplication using Java 1.8.0_121 on DESKTOP-K46D5S7 with PID 27996 (D:\IdeaProjects\TFJC\target\classes started by SAMSUNG in D:\IdeaProjects\TFJC)
-2021-03-05 17:56:16.677 [main] INFO  com.ApiServerApplication Line:660 -No active profile set, falling back to default profiles: default
-2021-03-05 17:56:22.650 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Line:108 -Tomcat initialized with port(s): 9091 (http)
-2021-03-05 17:56:22.661 [main] INFO  o.a.catalina.core.StandardService Line:173 -Starting service [Tomcat]
-2021-03-05 17:56:22.662 [main] INFO  o.a.catalina.core.StandardEngine Line:173 -Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-03-05 17:56:22.819 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Line:173 -Initializing Spring embedded WebApplicationContext
-2021-03-05 17:56:22.819 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Line:289 -Root WebApplicationContext: initialization completed in 5972 ms
-2021-03-05 17:56:22.951 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure Line:56  -Init DruidDataSource
-2021-03-05 17:56:23.146 [main] ERROR c.alibaba.druid.pool.DruidDataSource Line:977 -{dataSource-1} init error
-java.sql.SQLException: com.microsoft.sqlserver.jdbc.SQLServerDriver
-	at com.alibaba.druid.util.JdbcUtils.createDriver(JdbcUtils.java:620)
-	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:885)
+2021-03-06 16:45:28.526 [main] INFO  com.ApiServerApplication Line:55  -Starting ApiServerApplication using Java 1.8.0_121 on DESKTOP-K46D5S7 with PID 2708 (D:\IdeaProjects\TFJC\target\classes started by SAMSUNG in D:\IdeaProjects\TFJC)
+2021-03-06 16:45:28.537 [main] INFO  com.ApiServerApplication Line:660 -No active profile set, falling back to default profiles: default
+2021-03-06 16:45:37.428 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Line:108 -Tomcat initialized with port(s): 9091 (http)
+2021-03-06 16:45:37.438 [main] INFO  o.a.catalina.core.StandardService Line:173 -Starting service [Tomcat]
+2021-03-06 16:45:37.439 [main] INFO  o.a.catalina.core.StandardEngine Line:173 -Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-06 16:45:37.604 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Line:173 -Initializing Spring embedded WebApplicationContext
+2021-03-06 16:45:37.604 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Line:289 -Root WebApplicationContext: initialization completed in 8901 ms
+2021-03-06 16:45:37.702 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure Line:56  -Init DruidDataSource
+2021-03-06 16:45:37.825 [main] INFO  c.alibaba.druid.pool.DruidDataSource Line:1002 -{dataSource-1} inited
+2021-03-06 16:45:39.369 [main] INFO  c.i.a.plugins.opcua.client.ClientGen Line:74  -安全目录: C:\Users\SAMSUNG\AppData\Local\Temp\security
+2021-03-06 16:45:39.445 [main] INFO  c.i.a.p.opcua.client.KeyStoreLoader Line:36  -加载密钥 C:\Users\SAMSUNG\AppData\Local\Temp\security\example-client.pfx
+2021-03-06 16:45:51.737 [main] INFO  c.i.a.plugins.opcua.client.ClientGen Line:143 -开始连接 URL: opc.tcp://10.41.253.17:4840/discovery
+2021-03-06 16:45:56.745 [main] ERROR c.i.a.plugins.opcua.client.ClientGen Line:170 -[OpcUaProperties.OpcUaPropertie(endpointUrl=opc.tcp://10.41.253.17:4840, clientHandle=100, username=null, password=null)]客户端创建失败
+2021-03-06 16:45:56.988 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor Line:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-06 16:45:57.292 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Line:220 -Tomcat started on port(s): 9091 (http) with context path ''
+2021-03-06 16:45:57.302 [main] INFO  com.ApiServerApplication Line:61  -Started ApiServerApplication in 29.664 seconds (JVM running for 33.056)
+2021-03-06 16:45:57.306 [main] INFO  c.service.Impl.OpcUAScadaServiceImpl Line:60  -opcUA采集服务启动中......
+2021-03-06 16:45:57.530 [main] INFO  c.service.Impl.OpcUAScadaServiceImpl Line:99  -opcUA采集服务启动错误
+### Error querying database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'jeecg-boot.BPM_EM_EquipmentList' doesn't exist
+### The error may exist in com/dao/BpmEmEquipmentlistDao.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT  equipmentno,equipmentcode,equipmentname,equipmentclassifycode,equlocationcode,equlocationseq,brandcode,manufacturercode,suppliercode,price,batch,mfg,sl,expstart,exp,opcuaurl,usetime,endtime,runtime,states,statesname,isenable,descriptions,createby,createbyname,createtime,modifyby,modifybyname,modifytime,runstatus,modifystatustime,isstatusreport,statusreporttime,user_ext_value3,user_ext_value1,user_ext_value2,user_ext_value4,user_ext_value5,van_der_land_code  FROM BPM_EM_EquipmentList     WHERE OpcUAUrl IS NOT NULL AND OpcUAUrl <> ? AND EquipmentName LIKE ? OR EquipmentName LIKE ? OR EquipmentName LIKE ?
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'jeecg-boot.BPM_EM_EquipmentList' doesn't exist
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'jeecg-boot.BPM_EM_EquipmentList' doesn't exist
+2021-03-06 16:49:21.494 [main] INFO  com.ApiServerApplication Line:55  -Starting ApiServerApplication using Java 1.8.0_121 on DESKTOP-K46D5S7 with PID 19360 (D:\IdeaProjects\TFJC\target\classes started by SAMSUNG in D:\IdeaProjects\TFJC)
+2021-03-06 16:49:21.498 [main] INFO  com.ApiServerApplication Line:660 -No active profile set, falling back to default profiles: default
+2021-03-06 16:49:28.821 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Line:108 -Tomcat initialized with port(s): 9091 (http)
+2021-03-06 16:49:28.833 [main] INFO  o.a.catalina.core.StandardService Line:173 -Starting service [Tomcat]
+2021-03-06 16:49:28.834 [main] INFO  o.a.catalina.core.StandardEngine Line:173 -Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-06 16:49:29.077 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Line:173 -Initializing Spring embedded WebApplicationContext
+2021-03-06 16:49:29.078 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Line:289 -Root WebApplicationContext: initialization completed in 7522 ms
+2021-03-06 16:49:29.215 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure Line:56  -Init DruidDataSource
+2021-03-06 16:49:44.414 [main] ERROR c.alibaba.druid.pool.DruidDataSource Line:933 -init datasource error, url: jdbc:sqlserver://10.41.253.2:1433;DatabaseName=MMIS
+com.microsoft.sqlserver.jdbc.SQLServerException: 通过端口 1433 连接到主机 10.41.253.2 的 TCP/IP 连接失败。错误:“connect timed out。请验证连接属性。确保 SQL Server 的实例正在主机上运行，且在此端口接受 TCP/IP 连接，还要确保防火墙没有阻止到此端口的 TCP 连接。”。
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:234)
+	at com.microsoft.sqlserver.jdbc.SQLServerException.ConvertConnectExceptionToSQLServerException(SQLServerException.java:285)
+	at com.microsoft.sqlserver.jdbc.SocketFinder.findSocket(IOBuffer.java:2462)
+	at com.microsoft.sqlserver.jdbc.TDSChannel.open(IOBuffer.java:668)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:2695)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:2362)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:2213)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:1276)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:861)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1596)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1662)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:929)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -85,22 +120,103 @@ java.sql.SQLException: com.microsoft.sqlserver.jdbc.SQLServerDriver
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
 	at com.ApiServerApplication.main(ApiServerApplication.java:19)
-Caused by: java.lang.ClassNotFoundException: com.microsoft.sqlserver.jdbc.SQLServerDriver
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
-	at java.lang.Class.forName0(Native Method)
-	at java.lang.Class.forName(Class.java:264)
-	at com.alibaba.druid.util.JdbcUtils.createDriver(JdbcUtils.java:618)
-	... 76 common frames omitted
-2021-03-05 17:56:23.156 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext Line:596 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'emEquipmentStatusController': Unsatisfied dependency expressed through field 'bpmEmEquipmentlistService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'BpmEmEquipmentlistServiceimpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bpmEmEquipmentlistDao' defined in file [D:\IdeaProjects\TFJC\target\classes\com\dao\BpmEmEquipmentlistDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is java.sql.SQLException: com.microsoft.sqlserver.jdbc.SQLServerDriver
-2021-03-05 17:56:23.160 [main] INFO  o.a.catalina.core.StandardService Line:173 -Stopping service [Tomcat]
-2021-03-05 17:56:23.177 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener Line:136 -
+2021-03-06 16:49:44.419 [main] ERROR c.alibaba.druid.pool.DruidDataSource Line:977 -{dataSource-1} init error
+com.microsoft.sqlserver.jdbc.SQLServerException: 通过端口 1433 连接到主机 10.41.253.2 的 TCP/IP 连接失败。错误:“connect timed out。请验证连接属性。确保 SQL Server 的实例正在主机上运行，且在此端口接受 TCP/IP 连接，还要确保防火墙没有阻止到此端口的 TCP 连接。”。
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:234)
+	at com.microsoft.sqlserver.jdbc.SQLServerException.ConvertConnectExceptionToSQLServerException(SQLServerException.java:285)
+	at com.microsoft.sqlserver.jdbc.SocketFinder.findSocket(IOBuffer.java:2462)
+	at com.microsoft.sqlserver.jdbc.TDSChannel.open(IOBuffer.java:668)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:2695)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:2362)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:2213)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:1276)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:861)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1596)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1662)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:929)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeCustomInitMethod(AbstractAutowireCapableBeanFactory.java:1914)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1856)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1784)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:609)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1179)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1503)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1401)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:608)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1415)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:608)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1415)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:608)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:923)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:588)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at com.ApiServerApplication.main(ApiServerApplication.java:19)
+2021-03-06 16:49:44.421 [main] INFO  c.alibaba.druid.pool.DruidDataSource Line:1002 -{dataSource-1} inited
+2021-03-06 16:49:44.423 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext Line:596 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'emEquipmentStatusController': Unsatisfied dependency expressed through field 'bpmEmEquipmentlistService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'BpmEmEquipmentlistServiceimpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bpmEmEquipmentlistDao' defined in file [D:\IdeaProjects\TFJC\target\classes\com\dao\BpmEmEquipmentlistDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is com.microsoft.sqlserver.jdbc.SQLServerException: 通过端口 1433 连接到主机 10.41.253.2 的 TCP/IP 连接失败。错误:“connect timed out。请验证连接属性。确保 SQL Server 的实例正在主机上运行，且在此端口接受 TCP/IP 连接，还要确保防火墙没有阻止到此端口的 TCP 连接。”。
+2021-03-06 16:49:44.467 [main] INFO  o.a.catalina.core.StandardService Line:173 -Stopping service [Tomcat]
+2021-03-06 16:49:44.478 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener Line:136 -
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2021-03-05 17:56:23.221 [main] ERROR o.s.boot.SpringApplication Line:856 -Application run failed
-org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'emEquipmentStatusController': Unsatisfied dependency expressed through field 'bpmEmEquipmentlistService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'BpmEmEquipmentlistServiceimpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bpmEmEquipmentlistDao' defined in file [D:\IdeaProjects\TFJC\target\classes\com\dao\BpmEmEquipmentlistDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is java.sql.SQLException: com.microsoft.sqlserver.jdbc.SQLServerDriver
+2021-03-06 16:49:44.572 [main] ERROR o.s.boot.SpringApplication Line:856 -Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'emEquipmentStatusController': Unsatisfied dependency expressed through field 'bpmEmEquipmentlistService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'BpmEmEquipmentlistServiceimpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bpmEmEquipmentlistDao' defined in file [D:\IdeaProjects\TFJC\target\classes\com\dao\BpmEmEquipmentlistDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is com.microsoft.sqlserver.jdbc.SQLServerException: 通过端口 1433 连接到主机 10.41.253.2 的 TCP/IP 连接失败。错误:“connect timed out。请验证连接属性。确保 SQL Server 的实例正在主机上运行，且在此端口接受 TCP/IP 连接，还要确保防火墙没有阻止到此端口的 TCP 连接。”。
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
@@ -122,7 +238,7 @@ org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
 	at com.ApiServerApplication.main(ApiServerApplication.java:19)
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'BpmEmEquipmentlistServiceimpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bpmEmEquipmentlistDao' defined in file [D:\IdeaProjects\TFJC\target\classes\com\dao\BpmEmEquipmentlistDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is java.sql.SQLException: com.microsoft.sqlserver.jdbc.SQLServerDriver
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'BpmEmEquipmentlistServiceimpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bpmEmEquipmentlistDao' defined in file [D:\IdeaProjects\TFJC\target\classes\com\dao\BpmEmEquipmentlistDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is com.microsoft.sqlserver.jdbc.SQLServerException: 通过端口 1433 连接到主机 10.41.253.2 的 TCP/IP 连接失败。错误:“connect timed out。请验证连接属性。确保 SQL Server 的实例正在主机上运行，且在此端口接受 TCP/IP 连接，还要确保防火墙没有阻止到此端口的 TCP 连接。”。
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
@@ -138,7 +254,7 @@ Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Err
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
 	... 20 common frames omitted
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bpmEmEquipmentlistDao' defined in file [D:\IdeaProjects\TFJC\target\classes\com\dao\BpmEmEquipmentlistDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is java.sql.SQLException: com.microsoft.sqlserver.jdbc.SQLServerDriver
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bpmEmEquipmentlistDao' defined in file [D:\IdeaProjects\TFJC\target\classes\com\dao\BpmEmEquipmentlistDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is com.microsoft.sqlserver.jdbc.SQLServerException: 通过端口 1433 连接到主机 10.41.253.2 的 TCP/IP 连接失败。错误:“connect timed out。请验证连接属性。确保 SQL Server 的实例正在主机上运行，且在此端口接受 TCP/IP 连接，还要确保防火墙没有阻止到此端口的 TCP 连接。”。
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1518)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1401)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:608)
@@ -152,7 +268,7 @@ Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Err
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
 	... 33 common frames omitted
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is java.sql.SQLException: com.microsoft.sqlserver.jdbc.SQLServerDriver
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is com.microsoft.sqlserver.jdbc.SQLServerException: 通过端口 1433 连接到主机 10.41.253.2 的 TCP/IP 连接失败。错误:“connect timed out。请验证连接属性。确保 SQL Server 的实例正在主机上运行，且在此端口接受 TCP/IP 连接，还要确保防火墙没有阻止到此端口的 TCP 连接。”。
 	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
 	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
@@ -168,7 +284,7 @@ Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Err
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1503)
 	... 44 common frames omitted
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is java.sql.SQLException: com.microsoft.sqlserver.jdbc.SQLServerDriver
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is com.microsoft.sqlserver.jdbc.SQLServerException: 通过端口 1433 连接到主机 10.41.253.2 的 TCP/IP 连接失败。错误:“connect timed out。请验证连接属性。确保 SQL Server 的实例正在主机上运行，且在此端口接受 TCP/IP 连接，还要确保防火墙没有阻止到此端口的 TCP 连接。”。
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:609)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
@@ -182,9 +298,19 @@ Caused by: org.springframework.beans.factory.BeanCreationException: Error creati
 	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
 	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
 	... 57 common frames omitted
-Caused by: java.sql.SQLException: com.microsoft.sqlserver.jdbc.SQLServerDriver
-	at com.alibaba.druid.util.JdbcUtils.createDriver(JdbcUtils.java:620)
-	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:885)
+Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: 通过端口 1433 连接到主机 10.41.253.2 的 TCP/IP 连接失败。错误:“connect timed out。请验证连接属性。确保 SQL Server 的实例正在主机上运行，且在此端口接受 TCP/IP 连接，还要确保防火墙没有阻止到此端口的 TCP 连接。”。
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:234)
+	at com.microsoft.sqlserver.jdbc.SQLServerException.ConvertConnectExceptionToSQLServerException(SQLServerException.java:285)
+	at com.microsoft.sqlserver.jdbc.SocketFinder.findSocket(IOBuffer.java:2462)
+	at com.microsoft.sqlserver.jdbc.TDSChannel.open(IOBuffer.java:668)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:2695)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:2362)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:2213)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:1276)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:861)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1596)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1662)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:929)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -193,24 +319,40 @@ Caused by: java.sql.SQLException: com.microsoft.sqlserver.jdbc.SQLServerDriver
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1856)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1784)
 	... 68 common frames omitted
-Caused by: java.lang.ClassNotFoundException: com.microsoft.sqlserver.jdbc.SQLServerDriver
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
-	at java.lang.Class.forName0(Native Method)
-	at java.lang.Class.forName(Class.java:264)
-	at com.alibaba.druid.util.JdbcUtils.createDriver(JdbcUtils.java:618)
-	... 76 common frames omitted
-2021-03-05 17:58:16.268 [main] INFO  com.ApiServerApplication Line:55  -Starting ApiServerApplication using Java 1.8.0_121 on DESKTOP-K46D5S7 with PID 12208 (D:\IdeaProjects\TFJC\target\classes started by SAMSUNG in D:\IdeaProjects\TFJC)
-2021-03-05 17:58:16.288 [main] INFO  com.ApiServerApplication Line:660 -No active profile set, falling back to default profiles: default
-2021-03-05 17:58:25.862 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Line:108 -Tomcat initialized with port(s): 9091 (http)
-2021-03-05 17:58:25.872 [main] INFO  o.a.catalina.core.StandardService Line:173 -Starting service [Tomcat]
-2021-03-05 17:58:25.873 [main] INFO  o.a.catalina.core.StandardEngine Line:173 -Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-03-05 17:58:26.073 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Line:173 -Initializing Spring embedded WebApplicationContext
-2021-03-05 17:58:26.074 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Line:289 -Root WebApplicationContext: initialization completed in 9626 ms
-2021-03-05 17:58:26.173 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure Line:56  -Init DruidDataSource
-2021-03-05 17:58:41.338 [main] ERROR c.alibaba.druid.pool.DruidDataSource Line:933 -init datasource error, url: jdbc:sqlserver://10.41.253.2:1433;DatabaseName=MMIS
+2021-03-06 16:50:26.730 [main] INFO  com.ApiServerApplication Line:55  -Starting ApiServerApplication using Java 1.8.0_121 on DESKTOP-K46D5S7 with PID 22632 (D:\IdeaProjects\TFJC\target\classes started by SAMSUNG in D:\IdeaProjects\TFJC)
+2021-03-06 16:50:26.733 [main] INFO  com.ApiServerApplication Line:660 -No active profile set, falling back to default profiles: default
+2021-03-06 16:50:32.942 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Line:108 -Tomcat initialized with port(s): 9091 (http)
+2021-03-06 16:50:32.950 [main] INFO  o.a.catalina.core.StandardService Line:173 -Starting service [Tomcat]
+2021-03-06 16:50:32.951 [main] INFO  o.a.catalina.core.StandardEngine Line:173 -Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-06 16:50:33.074 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Line:173 -Initializing Spring embedded WebApplicationContext
+2021-03-06 16:50:33.075 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Line:289 -Root WebApplicationContext: initialization completed in 6297 ms
+2021-03-06 16:50:33.157 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure Line:56  -Init DruidDataSource
+2021-03-06 16:50:33.397 [main] INFO  c.alibaba.druid.pool.DruidDataSource Line:1002 -{dataSource-1} inited
+2021-03-06 16:50:34.694 [main] INFO  c.i.a.plugins.opcua.client.ClientGen Line:74  -安全目录: C:\Users\SAMSUNG\AppData\Local\Temp\security
+2021-03-06 16:50:34.714 [main] INFO  c.i.a.p.opcua.client.KeyStoreLoader Line:36  -加载密钥 C:\Users\SAMSUNG\AppData\Local\Temp\security\example-client.pfx
+2021-03-06 16:50:41.421 [main] INFO  c.i.a.plugins.opcua.client.ClientGen Line:143 -开始连接 URL: opc.tcp://10.41.253.17:4840/discovery
+2021-03-06 16:50:43.537 [main] ERROR c.i.a.plugins.opcua.client.ClientGen Line:170 -[OpcUaProperties.OpcUaPropertie(endpointUrl=opc.tcp://10.41.253.17:4840, clientHandle=100, username=null, password=null)]客户端创建失败
+2021-03-06 16:50:43.667 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor Line:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-06 16:50:43.893 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Line:220 -Tomcat started on port(s): 9091 (http) with context path ''
+2021-03-06 16:50:43.902 [main] INFO  com.ApiServerApplication Line:61  -Started ApiServerApplication in 17.635 seconds (JVM running for 19.967)
+2021-03-06 16:50:43.905 [main] INFO  c.service.Impl.OpcUAScadaServiceImpl Line:60  -opcUA采集服务启动中......
+2021-03-06 16:50:44.040 [main] INFO  c.service.Impl.OpcUAScadaServiceImpl Line:99  -opcUA采集服务启动错误
+### Error querying database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'jeecg-boot.BPM_EM_EquipmentList' doesn't exist
+### The error may exist in com/dao/BpmEmEquipmentlistDao.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT  equipmentno,equipmentcode,equipmentname,equipmentclassifycode,equlocationcode,equlocationseq,brandcode,manufacturercode,suppliercode,price,batch,mfg,sl,expstart,exp,opcuaurl,usetime,endtime,runtime,states,statesname,isenable,descriptions,createby,createbyname,createtime,modifyby,modifybyname,modifytime,runstatus,modifystatustime,isstatusreport,statusreporttime,user_ext_value3,user_ext_value1,user_ext_value2,user_ext_value4,user_ext_value5,van_der_land_code  FROM BPM_EM_EquipmentList     WHERE OpcUAUrl IS NOT NULL AND OpcUAUrl <> ? AND EquipmentName LIKE ? OR EquipmentName LIKE ? OR EquipmentName LIKE ?
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'jeecg-boot.BPM_EM_EquipmentList' doesn't exist
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'jeecg-boot.BPM_EM_EquipmentList' doesn't exist
+2021-03-06 17:09:32.770 [main] INFO  com.ApiServerApplication Line:55  -Starting ApiServerApplication using Java 1.8.0_121 on DESKTOP-K46D5S7 with PID 5884 (D:\IdeaProjects\TFJC\target\classes started by SAMSUNG in D:\IdeaProjects\TFJC)
+2021-03-06 17:09:32.782 [main] INFO  com.ApiServerApplication Line:660 -No active profile set, falling back to default profiles: default
+2021-03-06 17:09:43.905 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Line:108 -Tomcat initialized with port(s): 9091 (http)
+2021-03-06 17:09:43.941 [main] INFO  o.a.catalina.core.StandardService Line:173 -Starting service [Tomcat]
+2021-03-06 17:09:43.942 [main] INFO  o.a.catalina.core.StandardEngine Line:173 -Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-06 17:09:44.185 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Line:173 -Initializing Spring embedded WebApplicationContext
+2021-03-06 17:09:44.185 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Line:289 -Root WebApplicationContext: initialization completed in 11230 ms
+2021-03-06 17:09:44.378 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure Line:56  -Init DruidDataSource
+2021-03-06 17:09:59.588 [main] ERROR c.alibaba.druid.pool.DruidDataSource Line:933 -init datasource error, url: jdbc:sqlserver://10.41.253.2:1433;DatabaseName=MMIS
 com.microsoft.sqlserver.jdbc.SQLServerException: 通过端口 1433 连接到主机 10.41.253.2 的 TCP/IP 连接失败。错误:“connect timed out。请验证连接属性。确保 SQL Server 的实例正在主机上运行，且在此端口接受 TCP/IP 连接，还要确保防火墙没有阻止到此端口的 TCP 连接。”。
 	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:234)
 	at com.microsoft.sqlserver.jdbc.SQLServerException.ConvertConnectExceptionToSQLServerException(SQLServerException.java:285)
@@ -299,7 +441,7 @@ com.microsoft.sqlserver.jdbc.SQLServerException: 通过端口 1433 连接到主�
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
 	at com.ApiServerApplication.main(ApiServerApplication.java:19)
-2021-03-05 17:58:41.360 [main] ERROR c.alibaba.druid.pool.DruidDataSource Line:977 -{dataSource-1} init error
+2021-03-06 17:09:59.593 [main] ERROR c.alibaba.druid.pool.DruidDataSource Line:977 -{dataSource-1} init error
 com.microsoft.sqlserver.jdbc.SQLServerException: 通过端口 1433 连接到主机 10.41.253.2 的 TCP/IP 连接失败。错误:“connect timed out。请验证连接属性。确保 SQL Server 的实例正在主机上运行，且在此端口接受 TCP/IP 连接，还要确保防火墙没有阻止到此端口的 TCP 连接。”。
 	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:234)
 	at com.microsoft.sqlserver.jdbc.SQLServerException.ConvertConnectExceptionToSQLServerException(SQLServerException.java:285)
@@ -388,13 +530,13 @@ com.microsoft.sqlserver.jdbc.SQLServerException: 通过端口 1433 连接到主�
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
 	at com.ApiServerApplication.main(ApiServerApplication.java:19)
-2021-03-05 17:58:41.362 [main] INFO  c.alibaba.druid.pool.DruidDataSource Line:1002 -{dataSource-1} inited
-2021-03-05 17:58:41.364 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext Line:596 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'emEquipmentStatusController': Unsatisfied dependency expressed through field 'bpmEmEquipmentlistService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'BpmEmEquipmentlistServiceimpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bpmEmEquipmentlistDao' defined in file [D:\IdeaProjects\TFJC\target\classes\com\dao\BpmEmEquipmentlistDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is com.microsoft.sqlserver.jdbc.SQLServerException: 通过端口 1433 连接到主机 10.41.253.2 的 TCP/IP 连接失败。错误:“connect timed out。请验证连接属性。确保 SQL Server 的实例正在主机上运行，且在此端口接受 TCP/IP 连接，还要确保防火墙没有阻止到此端口的 TCP 连接。”。
-2021-03-05 17:58:41.368 [main] INFO  o.a.catalina.core.StandardService Line:173 -Stopping service [Tomcat]
-2021-03-05 17:58:41.378 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener Line:136 -
+2021-03-06 17:09:59.594 [main] INFO  c.alibaba.druid.pool.DruidDataSource Line:1002 -{dataSource-1} inited
+2021-03-06 17:09:59.598 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext Line:596 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'emEquipmentStatusController': Unsatisfied dependency expressed through field 'bpmEmEquipmentlistService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'BpmEmEquipmentlistServiceimpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bpmEmEquipmentlistDao' defined in file [D:\IdeaProjects\TFJC\target\classes\com\dao\BpmEmEquipmentlistDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is com.microsoft.sqlserver.jdbc.SQLServerException: 通过端口 1433 连接到主机 10.41.253.2 的 TCP/IP 连接失败。错误:“connect timed out。请验证连接属性。确保 SQL Server 的实例正在主机上运行，且在此端口接受 TCP/IP 连接，还要确保防火墙没有阻止到此端口的 TCP 连接。”。
+2021-03-06 17:09:59.632 [main] INFO  o.a.catalina.core.StandardService Line:173 -Stopping service [Tomcat]
+2021-03-06 17:09:59.645 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener Line:136 -
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2021-03-05 17:58:41.441 [main] ERROR o.s.boot.SpringApplication Line:856 -Application run failed
+2021-03-06 17:09:59.848 [main] ERROR o.s.boot.SpringApplication Line:856 -Application run failed
 org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'emEquipmentStatusController': Unsatisfied dependency expressed through field 'bpmEmEquipmentlistService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'BpmEmEquipmentlistServiceimpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bpmEmEquipmentlistDao' defined in file [D:\IdeaProjects\TFJC\target\classes\com\dao\BpmEmEquipmentlistDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is com.microsoft.sqlserver.jdbc.SQLServerException: 通过端口 1433 连接到主机 10.41.253.2 的 TCP/IP 连接失败。错误:“connect timed out。请验证连接属性。确保 SQL Server 的实例正在主机上运行，且在此端口接受 TCP/IP 连接，还要确保防火墙没有阻止到此端口的 TCP 连接。”。
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)

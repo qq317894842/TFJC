@@ -15,6 +15,7 @@ import org.springframework.context.annotation.PropertySource;
 @PropertySource({"classpath:client.properties"})
 public class ApiServerApplication {
 
+
     public static void main(String[] args) {
         SpringApplication.run(ApiServerApplication.class, args);
     }

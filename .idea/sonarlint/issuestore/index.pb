@@ -20,3 +20,9 @@ R
 "src/main/resources/application.yml,a\6\a6d8b8556fee0e03112ce2bf34b8cb27a7dc9e58
 [
 +src/main/java/com/ApiServerApplication.java,f\3\f35727073b02d9f85855c0178ab2ce49528c4666
+x
+Hlogs/esb-sdk-alimq-maven-demo/error-2021-03-04-1.log1228411928140800.tmp,0\a\0a2fe8415b9a85b8247eb8a552410f8cd4b44b40
+W
+'logs/esb-sdk-alimq-maven-demo/error.log,8\e\8eff830a9689982b5b9312583ac37ac902a4b07b
+V
+&logs/esb-sdk-alimq-maven-demo/info.log,8\b\8baf3872e39785c4cef3da04b5bfaab238d3feec

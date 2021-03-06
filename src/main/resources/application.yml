@@ -39,6 +39,13 @@ spring:
           wall:
             config:
               multi-statement-allow: true
+
+#  mysql数据库 测试用
+#    datasource:
+#      username: user01
+#      password: 123456
+#      url: jdbc:mysql://39.108.5.84:3306/jeecg-boot?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=UTC
+#      driver-class-name: com.mysql.jdbc.Driver
     application:
       name: tfjc
     mvc:
